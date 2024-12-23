@@ -61,8 +61,10 @@ print(user.get_info())
 from abc import ABC, abstractmethod
 
 class Shape(ABC):
+    @abstractmethod
     def calculate_area(self):
         pass
+    @abstractmethod
     def perimetr(self):
         pass
 
